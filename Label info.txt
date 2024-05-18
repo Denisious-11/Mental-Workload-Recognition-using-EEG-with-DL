@@ -1,0 +1,4 @@
+#Labels ( Cognitive Mental Workload Prediction from EEG)
+0 - Easy ( Low )
+1 - Medium ( Medium )
+2 - Hard ( High )

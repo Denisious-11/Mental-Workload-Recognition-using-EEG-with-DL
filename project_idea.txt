@@ -1,0 +1,14 @@
+This project is an effort to use Deep learning to understand the mental workload generated on an individual while performing a task and classifying the level of cognition induced in an individual.
+
+The goal is to use various data processing techniques and CNN architecture to preserve both spacial and time information in the classification of EEG data.
+
+
+data
+-----
+The data are in the form of csv files with raw waveform signals from 14 probes places around the scalp. The sampling rate is 128 hz, which allows for frequency analysis up to ~60 hz. Each of 8 subjects participated in model building using SolidWorks
+
+Each subject underwent 3 trials. Each trial included the following steps-
+
+The first 5 seconds of procedure was quite; the subject was Idle.
+At the beginning of 6th second, the subject started building the model.
+Finally, after a given time limit and 5s, idle time after the experiment indicates the end of the trial.
